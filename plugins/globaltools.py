@@ -427,7 +427,7 @@ async def _(e):
     await asyncio.sleep(2)
     await xx.edit(f"Start banning globally {name}.....")
     await asyncio.sleep(2)
-    await xx.edit(f"Gbanning: {name}, 𝕽𝐞𝐚𝐬𝐨𝐧: {reason} 🌹๑,¸¸,")
+    await xx.edit(f"Gbanning: {name}, 𝕽𝐞𝐚𝐬𝐨𝐧: {reason}🌹๑,¸¸,")
     for ggban in dialog:
         if ggban.is_group or ggban.is_channel:
             try:
