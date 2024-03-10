@@ -372,7 +372,7 @@ async def _(e):
         "`Searching User Info ▰▰▰▰▰▰▰▰▰▰ 100%`\n`Loading Gban libraries ▰▰▰▰▰▰▰▰▰▰ 100%`\n`Initializing Gban bot ▰▰▰▰▰▰▰▰▰▰ 100%`\nRunning GBan scripts ◕",
         "`Searching User Info ▰▰▰▰▰▰▰▰▰▰ 100%`\n`Loading Gban libraries ▰▰▰▰▰▰▰▰▰▰ 100%`\n`Initializing Gban bot ▰▰▰▰▰▰▰▰▰▰ 100%`\nRunning GBan scripts ⬤"
     ]
-    xx = await e.eor("`🌹✦GʙᴀɴAɴɢᴇ́ʟɪᴄsᴛᴀʀᴛ✦🌹`")
+    xx = await e.eor("`🌹✦GʙᴀɴA ɴɢᴇ́ʟɪᴄ sᴛᴀʀᴛ✦🌹`")
     reason = ""
     if e.reply_to_msg_id:
         userid = (await e.get_reply_message()).sender_id
@@ -427,7 +427,7 @@ async def _(e):
     await asyncio.sleep(2)
     await xx.edit(f"Start banning globally {name}.....")
     await asyncio.sleep(2)
-    await xx.edit(f"Gbanning: {name}, 𝕽𝐞𝐚𝐬𝐨𝐧: {reason} ...🌹")
+    await xx.edit(f"Gbanning: {name}, 𝕽𝐞𝐚𝐬𝐨𝐧: {reason} 🌹๑,¸¸,")
     for ggban in dialog:
         if ggban.is_group or ggban.is_channel:
             try:
